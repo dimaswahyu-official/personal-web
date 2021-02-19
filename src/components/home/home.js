@@ -1,26 +1,35 @@
 import React from 'react'
-import { Carousel } from 'antd';
+import {Carousel, Col, Divider, Row} from 'antd';
 import data from "./data";
 
 
+function AppHero() {
+    return (
+        <div className="heroBlock">
+            <Carousel>
+                {data.map(data => {
+                    return (
+                        <div className="container-fluid">
+                            <Row>
+                                <Col span={10}>
+                                    <div className="content">
+                                        <h3>{data.title}</h3>
+                                        <p>{data.content}</p>
+                                    </div>
+                                </Col>
+                                <Col span={14}>
+                                    <div className="content">
+                                        <h3>{data.title}</h3>
+                                        <p>{data.content}</p>
+                                    </div>
+                                </Col>
+                            </Row>
 
-function AppHero(){
-    return(
-       <div className="heroBlock">
-           <Carousel>
-               {data.map(data => {
-                   return(
-                     <div className="container-fluid">
-                         <div className="content">
-                             <h1>{data.title}</h1>
-                             <p>{data.content}</p>
-                         </div>
-
-                     </div>
-                   );
-               })}
-           </Carousel>
-       </div>
+                        </div>
+                    );
+                })}
+            </Carousel>
+        </div>
 
     );
 }

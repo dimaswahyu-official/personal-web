@@ -12,7 +12,6 @@ function AppAbout(){
                 </div>
                 <div className="contentHolder">
                     <p>
-                        I'm a Developer with experience
                         I can help you to developing an App or a Static Websites. I also can help you to making a premium portofolio/personal resume.
                         I had experiece on React, Android Native, Java, Flutter, and Git.
                     </p>
