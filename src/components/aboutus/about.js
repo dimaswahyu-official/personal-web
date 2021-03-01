@@ -4,7 +4,7 @@ import data from "./data";
 
 function AppAbout(){
     return(
-        <div className="block aboutBlock">
+        <div id="about" className="block aboutBlock">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>About Me</h2>
@@ -21,7 +21,7 @@ function AppAbout(){
                     <Row gutter={[16, 16]} justify="center">
                         {data.map(data=>{
                             return(
-                                <Col xs={{ span: 24, offset: 1 }} md={{ span: 6, offset: 2 }} key={data.key}>
+                                <Col  md={{ span: 8}} key={data.key}>
                                     <div className="content">
                                         <div className="icon">
                                             {data.icon}

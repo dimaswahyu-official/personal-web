@@ -5,7 +5,7 @@ import data from "./data";
 
 function AppHero() {
     return (
-        <div className="heroBlock">
+        <div id="home" className="heroBlock">
             <Carousel>
                 {data.map(data => {
                     return (

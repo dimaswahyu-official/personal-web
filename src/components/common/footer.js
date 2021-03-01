@@ -15,7 +15,7 @@ function AppFooter(){
                   <li><a href="https://www.linked.in"><i className="fab fa-linkedin"></i></a></li>
                   <li><a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a></li>
               </ul>
-              <div className="copyright">copyright &copy; 2020 dw|dev</div>
+              <div className="copyright">&copy; 2020 dw | tech</div>
               <BackTop>
                   <div className="goTop">
                       <i className="fas fa-arrow-circle-up"></i>
@@ -25,6 +25,7 @@ function AppFooter(){
           </div>
 
       </div>
+
     );
 
 }

@@ -7,12 +7,12 @@ const { Meta } = Card;
 
 function AppFeatures(){
     return(
-      <div className="block featuresBlock bgGray ">
+      <div id="features" className="block featuresBlock bgGray ">
           <div className="container-fluid">
               <Row gutter={[16, 16]}>
                   {data.map(data=>{
                       return(
-                          <Col span={8} key={data.key}>
+                          <Col  md={{ span: 8}}  sm={{ span: 12}}  xs={{ span: 24}} key={data.key}>
                               <Card
                                   hoverable
                                   cover={<img alt="example" src={data.image} />}
