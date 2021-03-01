@@ -17,21 +17,24 @@ function AppAbout(){
                     </p>
 
                 </div>
-                <Row gutter={[16, 16]}>
-                    {data.map(data=>{
-                      return(
-                          <Col span={8} key={data.key}>
-                              <div className="content">
-                                  <div className="icon">
-                                      {data.icon}
-                                  </div>
-                                  <h3>{data.title}</h3>
-                                  <p>{data.content}</p>
-                              </div>
-                          </Col>
-                      );
-                    })}
-                </Row>
+                <div className="contentHolder">
+                    <Row gutter={[16, 16]} justify="center">
+                        {data.map(data=>{
+                            return(
+                                <Col xs={{ span: 24, offset: 1 }} md={{ span: 6, offset: 2 }} key={data.key}>
+                                    <div className="content">
+                                        <div className="icon">
+                                            {data.icon}
+                                        </div>
+                                        <h3>{data.title}</h3>
+                                        <p>{data.content}</p>
+                                    </div>
+                                </Col>
+                            );
+                        })}
+                    </Row>
+                </div>
+
 
             </div>
         </div>

@@ -81,8 +81,8 @@ header
 }
 
 .header .logo {
-  font-size: 22px;
-  text-transform: uppercase;
+  font-size: 18px;
+  /*text-transform: uppercase;*/
   font-weight: 400;
 }
 
@@ -237,13 +237,15 @@ hero
 }
 
 .heroBlock h3 {
-  font-size: 30px;
+  font-size: 44px;
   line-height: 1.2;
   margin: 0 0 30px;
+  text-align: center;
 }
 
 .heroBlock p {
   margin: 0 0 30px;
+  text-align: center;
 }
 
 .heroBlock .btnHolder {
@@ -282,6 +284,7 @@ about
 .aboutBlock .content {
   text-align: center;
 }
+
 
 /* 
 how it works
