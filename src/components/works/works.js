@@ -30,7 +30,7 @@ class AppWorks extends React.Component{
                     </div>
                     <div className="contentHolder">
                         <Button  onClick={this.showModal}>
-                            <i className="fas fa-play"></i>
+                            <i className="fas fa-play"> </i>
                         </Button>
                     </div>
                     <Modal
@@ -39,7 +39,7 @@ class AppWorks extends React.Component{
                         footer={null}
                         onCancel={this.handleCancel}
                     >
-                        <iframe title="Woocommerce Tutorial" width="100%" height="350" src="https://www.youtube.com/embed/8f8_JYIzOno?list=PLiUrl-SQRR7LQINGQGE99pXWDuKq4SxfU"></iframe>
+                        <iframe title="Woocommerce Tutorial" width="100%" height="350" src="https://www.youtube.com/embed/8f8_JYIzOno?list=PLiUrl-SQRR7LQINGQGE99pXWDuKq4SxfU"> </iframe>
                     </Modal>
 
 

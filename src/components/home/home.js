@@ -1,5 +1,5 @@
 import React from 'react'
-import {Carousel, Col, Row} from 'antd';
+import {Carousel} from 'antd';
 import data from "./data";
 
 

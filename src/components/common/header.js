@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Anchor, Menu} from "antd";
+import {Anchor} from "antd";
 import image from '../../assets/images/logodw.png'
 
 import { Drawer, Button } from 'antd';
@@ -25,15 +25,15 @@ const {Link} = Anchor;
                     </div>
                     <div className="mobileHidden">
                         <Anchor targetOffset="65">
-                            <Link href="#home" title="Home"></Link>
-                            <Link href="#about" title="About"></Link>
-                            <Link href="#features" title="Features"></Link>
-                            <Link href="#works" title="Works"></Link>
+                            <Link href="#home" title="Home"> </Link>
+                            <Link href="#about" title="About"> </Link>
+                            <Link href="#features" title="Features"> </Link>
+                            <Link href="#works" title="Works"> </Link>
                         </Anchor>
                     </div>
                     <div className="mobileVisible">
                         <Button type="primary" onClick={showDrawer}>
-                            <i class="fas fa-bars"></i>
+                            <i className="fas fa-bars"> </i>
                         </Button>
                         <Drawer
                             title="Menu"
@@ -43,10 +43,10 @@ const {Link} = Anchor;
                             visible={visible}
                         >
                             <Anchor targetOffset="65">
-                                <Link href="#home" title="Home"></Link>
-                                <Link href="#about" title="About"></Link>
-                                <Link href="#features" title="Features"></Link>
-                                <Link href="#works" title="Works"></Link>
+                                <Link href="#home" title="Home"> </Link>
+                                <Link href="#about" title="About"> </Link>
+                                <Link href="#features" title="Features"> </Link>
+                                <Link href="#works" title="Works"> </Link>
                             </Anchor>
                         </Drawer>
                     </div>
